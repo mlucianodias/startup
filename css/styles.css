@@ -1,0 +1,28 @@
+/* Fundo com degradê */
+body {
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+}
+
+/* Transparência na seção */
+section {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3, p, li {
+    color: black;
+}
+footer p{
+    color: wheat;
+}
+
+/* Estilo para o texto "Powered by Luciano Dias" */
+.powered-by {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-style: italic;
+}
